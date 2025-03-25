@@ -1,0 +1,187 @@
+
+
+@font-face{
+    font-family: para;
+    src: url(./fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: nunito;
+    src: url(./fonts/Nunito-VariableFont_wght.ttf);
+}
+
+
+
+body{
+    background-color: #effbf7;
+    margin: auto;
+}
+
+
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* gap: 5%; */
+    margin-top: 5%;
+    /* margin: auto; */
+    justify-items: center;
+      
+}
+
+.navigations{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+    /* gap: 10%; */
+    
+}
+.navigations a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.login-button{
+    border: none;
+    font-size: 20px;
+}
+.signup-button{
+    border: none;
+    background-color: rgb(230, 111, 131);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.payment{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1.5fr 1fr; 
+    margin-top: 5%;
+    margin-left: 10%;
+}
+ /* .payment{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+ } */
+.roger{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: white;
+    border-radius: 15px;
+    width: 80%;
+}
+.roger img{
+    width: 50%;
+    border-radius: 50%;
+
+}
+.app-store{
+    background-color: #232949;
+    padding: 19px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.app-store i{
+    font-size: 25px;
+    color: white;
+}
+.play-store{
+    border: 1px solid #232949;
+    padding: 19px;
+    border-radius: 15px;
+    justify-items: center;
+    color: #232949;
+    font-size: 20px;
+}
+.app-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3%;
+    width: 30%;
+}
+.charge{
+    color: red;
+    text-decoration: underline;
+}
+.best-performance{
+    font-family: para;
+    font-weight: bolder;
+    font-size: 50px;
+    width: 45%;
+}
+.received{
+    background-color: #effbf7;
+    color: blue;
+    margin-top: 4%;
+    height: 27%;
+    width: 55%;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.westervelt{
+    font-family: nunito;
+    font-weight: bold;
+    font-size: 20px;
+}
+.work-days{
+    margin-left: 30%;
+    margin-top: 15%;
+}
+.pounds{
+    margin-top: 4%;
+}
+.pound{
+    font-weight: bold;
+    font-size: 20px;
+}
+.blackman img{
+    border-radius: 10%;
+    z-index: 10px;
+    margin-top: -20%;
+    margin-left: 30%;
+     width: 40%;
+}
+.uploading{
+    background-color: white;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10%;
+    margin-top: -17px;
+}
+.fast{
+    font-weight: bold;
+    font-size: 20px;
+}
+.percentage {
+    /* border: 1px solid; */
+    align-content: center;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.combination{
+    transform: rotate(-5deg);
+    z-index: -1;
+}
+.users{
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+    margin-left: 12%;
+}
+.users  img{
+    width: 80%;
+    height: 60%;
+    border-radius: 50%;
+}
+.female-users{
+    background-color: white;
+    width: 25%;
+   margin-top: -50%;
+   margin-left: 140%;
+   border-radius: 10%;
+   transform: rotate(15deg);
+}
