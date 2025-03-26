@@ -16,8 +16,14 @@ body{
     background-color: #effbf7;
     margin: auto;
     overflow-x: hidden;
+    font-family: nunito;
+    color: #3b3b4a;
+    font-size: 25px;
 }
+.Business{
+    font-family: para;
 
+}
 
 
 header{
@@ -377,7 +383,7 @@ header{
 .testimonials{
     display: flex;
     justify-content: center;
-    gap: 22%;
+    gap: 12%;
 }
 .download{
     display: flex;
@@ -404,10 +410,14 @@ header{
 .edwin{
     border: 1px solid rgb(211, 127, 141);
     border-radius: 20px;
+    margin-left: 10%;
 }
 .edwin img{
     border-radius: 50%;
     width: 40%;
+}
+.customer{
+    color: red;
 }
 .mobile-app{
     display: flex;
@@ -433,7 +443,17 @@ header{
     font-size: 25px;
     font-weight: bold;
 }
-
+.okay{
+    font-family: para;
+    font-size: 39px;
+    /* font-weight: bold; */
+}
+.in-numbers{
+    font-family: para;
+    font-size: 39px;
+    color: red;
+    text-decoration: underline;
+}
 @media screen and (min-width: 320px){
     .testimonials{
         flex-wrap: wrap;
