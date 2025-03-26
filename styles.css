@@ -27,19 +27,16 @@ body{
 
 
 header{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* gap: 5%; */
+    display: flex;
+    justify-content: center;
     margin-top: 5%;
-    /* margin: auto; */
-    justify-items: center;
+    gap: 20%;
       
 }
-
 .navigations{
-    display: grid;
-    grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
-    /* gap: 10%; */
+    display: flex;
+    justify-content: center;
+    gap: 15%;
     
 }
 .navigations a{
@@ -65,11 +62,6 @@ header{
     margin-top: 5%;
     margin-left: 10%;
 }
- /* .payment{
-    display: flex;
-    justify-content: center;
-    margin-top: 10%;
- } */
 .roger{
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -103,10 +95,10 @@ header{
     font-size: 20px;
 }
 .app-buttons{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    /* justify-content: center; */
     gap: 3%;
-    width: 30%;
+    
 }
 .charge{
     color: red;
@@ -295,12 +287,12 @@ header{
     width: 60%;
 }
 .create-account{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: center;
 }
 .watch-button{
     padding: 15px;
-    width: 50%;
+    width: 100%;
     margin-top: 10%;
     background-color: blue;
     color: white;
@@ -473,6 +465,9 @@ header{
     .information-page{
         flex-wrap: wrap;
     }
+    .header{
+        flex-wrap: wrap;
+    }
 }
 
 @media screen  and (min-width: 540){
@@ -485,5 +480,7 @@ header{
 }
 
 @media screen and (min-width: 740){
+    .header{
 
+    }
 }
