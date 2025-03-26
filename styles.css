@@ -15,7 +15,7 @@
 body{
     background-color: #effbf7;
     margin: auto;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 
@@ -344,6 +344,13 @@ header{
     text-decoration: underline;
     color: red;
 }
+
+.customer-download{
+    font-family: para;
+    /* font-weight: bold; */
+    font-size: 40px;
+    /* width: 45%; */
+}
 .about-us{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -365,25 +372,58 @@ header{
     grid-template-columns: 1fr 1fr 1fr;
 }
 .testimonials{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 22%;
 }
 .download{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: center;
     margin-top: 10%;
-    justify-items: center;
+    gap: 20%;
 }
 .copyright{
     display: flex;
 }
 .download-img{
-    
+    width: 50vh;
+}
+.know-more-about-the-app{
+    padding: 15px;
+    background-color: #252849;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.under-lined{
+    color: red;
+}
+.edwin{
+    border: 1px solid rgb(211, 127, 141);
+    border-radius: 20px;
+}
+.edwin img{
+    border-radius: 50%;
+    width: 40%;
+}
+.mobile-app{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    background-color: white;
 }
 
-@media screen and (min-width: 375){
-    .join-button{
-        width: 30%;
+@media screen and (min-width: 320px){
+    .testimonials{
+        flex-wrap: wrap;
+    }
+    .mobile-app{
+        flex-wrap: wrap;
+    }
+    .download{
+        flex-wrap: wrap;
+    }
+    .body{
+        overflow-x: hidden;
     }
 }
