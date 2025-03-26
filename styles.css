@@ -47,6 +47,7 @@ header{
 .login-button{
     border: none;
     font-size: 20px;
+    cursor: pointer;
 }
 .signup-button{
     border: none;
@@ -54,6 +55,7 @@ header{
     font-size: 20px;
     padding: 10px;
     border-radius: 10px;
+    cursor: pointer;
 }
 .payment{
     display: grid;
@@ -166,6 +168,7 @@ header{
     transform: rotate(-5deg);
     z-index: -1;
 }
+
 .users{
     display: grid;
     grid-template-columns: 2fr 7fr;
@@ -262,10 +265,11 @@ header{
     grid-template-columns: 1fr 1fr;
 }
 .data{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: 
+    flex;
+    justify-content: center;
     margin-top: 14%;
-    justify-items: center;
+   gap: 10%;
     margin-left: 10%;
 }
 .catoonman{
@@ -298,6 +302,7 @@ header{
     color: white;
     border: none;
     border-radius: 20px;
+    cursor: pointer;
 }
 #cube{
     color: blue;
@@ -330,6 +335,7 @@ header{
     border-radius: 20px;
     background-color: rgb(228, 79, 104);
     color: white;
+    cursor: pointer;
 }
 .customer-help{
     font-family: para;
@@ -451,23 +457,29 @@ header{
         flex-wrap: wrap;
     }
     .mobile-app{
+        display: flex;
         flex-wrap: wrap;
     }
     .download{
+        display: flex;
         flex-wrap: wrap;
     }
-    .body{
-        overflow-x: hidden;
-    }
     .about-us{
+        display: flex;
         flex-wrap: wrap;
     }
     .information-page{
+        display: flex;
         flex-wrap: wrap;
     }
     .header{
         flex-wrap: wrap;
+        gap: 10px;
     }
+    /* .data{
+        display: flex;
+        flex-wrap: wrap;
+    } */
 }
 
 @media screen  and (min-width: 540){
@@ -480,7 +492,8 @@ header{
 }
 
 @media screen and (min-width: 740){
-    .header{
-
-    }
+    /* .header{
+        display: flex;
+        flex-wrap: wrap;
+    } */
 }
