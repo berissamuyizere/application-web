@@ -378,6 +378,9 @@ header{
 .copyright{
     display: flex;
 }
+.download-img{
+    
+}
 
 @media screen and (min-width: 375){
     .join-button{
