@@ -15,6 +15,7 @@
 body{
     background-color: #effbf7;
     margin: auto;
+    overflow: hidden;
 }
 
 
@@ -376,4 +377,10 @@ header{
 }
 .copyright{
     display: flex;
+}
+
+@media screen and (min-width: 375){
+    .join-button{
+        width: 30%;
+    }
 }
