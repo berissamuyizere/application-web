@@ -185,3 +185,84 @@ header{
    border-radius: 10%;
    transform: rotate(15deg);
 }
+
+.dit-accomplished{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 30px;
+}
+.google{
+    width: 10%;
+}
+.dropbox{
+    width: 10%;
+}
+.slack{
+    width: 10%;
+}
+.trello{
+    width: 10%;
+}
+.microsoft{
+    width: 10%;
+}
+.logos{
+    text-align: center;
+    background-color: white;
+    
+}
+.logos img{
+    margin-left: 7%;
+}
+.product{
+    font-family: para;
+    font-weight: bold;
+    font-size: 50px;
+    /* width: 45%; */
+    text-align: center;
+}
+
+.product strong{
+    text-decoration: underline;
+    color: red;
+}
+.information-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+  
+}
+.star {
+    text-align: center;
+    background-color: white;
+    height: 25vh;
+    width: 25vh;
+    border-radius: 20px;
+    border: 1px solid  rgb(230, 111, 131);
+
+}
+.star i{
+    background-color:  #fae9db;
+    padding: 12px;
+    border-radius: 20px;
+}
+.equalizer{
+    text-align: center;
+    background-color: white;
+    
+}
+.equalizer img{
+    width: 15%;
+}
+.feather{
+    text-align: center;
+    background-color: white;
+}
+.findings{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.data{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
