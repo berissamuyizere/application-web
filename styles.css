@@ -361,10 +361,11 @@ header{
 }
 .footer-copyright{
     background-color: black;
-    color: #5a5d7d ;
+    color: #cbcbcf ;
     display: flex;
     justify-content: center;
     gap: 10%;
+    font-size: 22px;
 }
 .know-more{
 
@@ -427,6 +428,11 @@ header{
     color: white;
     font-size: 25px;
 }
+.money{
+    font-family: nunito ;
+    font-size: 25px;
+    font-weight: bold;
+}
 
 @media screen and (min-width: 320px){
     .testimonials{
@@ -456,4 +462,8 @@ header{
     .information-page{
         flex-wrap: wrap;
     }
+}
+
+@media screen and (min-width: 740){
+
 }
