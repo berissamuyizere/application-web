@@ -265,4 +265,115 @@ header{
 .data{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 14%;
+    justify-items: center;
+    margin-left: 10%;
+}
+.catoonman{
+    width: 24%;
+    border-radius: 50%;
+    margin-top: 20%;
+    border: 4px solid blue;
+    margin-left: 10%;
+}
+.catoongirl{
+    width: 34%;
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-left: 60%;
+    background-color: #fef9ed;
+}
+.people{
+    background-color: #fef9ed;
+    width: 60%;
+}
+.create-account{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.watch-button{
+    padding: 15px;
+    width: 50%;
+    margin-top: 10%;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+#cube{
+    color: blue;
+    font-size: 30px;
+}
+.accountcreationguide{
+    margin-top: -120%;
+    margin-left: 20%;
+    background-color: rgb(253, 250, 250);
+    border-radius: 20px;
+}
+.catoons{
+    background-color: white;
+}
+.study-with-me{
+    margin-top: 50%;
+    background-color: white;
+}
+.study-with-me i{
+    color: white;
+    background-color: blue;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 20px;
+}
+.join-button{
+    padding: 15px;
+    width: 25%;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(228, 79, 104);
+    color: white;
+}
+.customer-help{
+    font-family: para;
+    /* font-weight: bold; */
+    font-size: 40px;
+    /* width: 45%; */
+    text-align: center;
+}
+.customer-help strong{
+    text-decoration: underline;
+    color: red;
+}
+.about-us{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: #252849;
+    color: #5a5d7d;
+}
+.footer-copyright{
+    background-color: black;
+    color: #5a5d7d ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+.know-more{
+
+}
+.user{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.testimonials{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+.download{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10%;
+    justify-items: center;
+}
+.copyright{
+    display: flex;
 }
